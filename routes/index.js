@@ -5,7 +5,11 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Express' ,
-    userID: '1234'
+    userID: '1234',
+    partials: {
+    	header: './partials/header',
+    	footer: './partials/footer',
+    }
   });
 });
 
