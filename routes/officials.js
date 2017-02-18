@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Officials',
+  res.render('officials', { title: 'Officials',
+    districtNum: '20',
     partials: {
       head: './partials/head',
       footer: './partials/footer',

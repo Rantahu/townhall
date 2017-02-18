@@ -1,0 +1,14 @@
+#header {
+  width: 100%;
+  padding: 100px 0;
+  margin-bottom: 100px;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background: url('/img/header.jpg') no-repeat center center scroll;
+  background-color: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
