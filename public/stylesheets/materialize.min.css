@@ -3934,7 +3934,8 @@ nav .input-field {
 }
 
 nav .input-field input {
-    height: 100%;
+    margin-top: 3%;
+    height: 75%;
     font-size: 1.2rem;
     border: none;
     padding-left: 2rem
@@ -5598,7 +5599,6 @@ input:not([type])+label:after, input[type=text]+label:after, input[type=password
 
 .input-field input[type=search] {
     display: block;
-    padding_top: 10%;
     line-height: 80%;
     padding-left: 4rem;
     width: calc(100% - 4rem)
