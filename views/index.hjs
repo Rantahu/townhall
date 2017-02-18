@@ -1,44 +1,74 @@
+ {{>head}} {{>navbar}}
 
-{{>head}}
-{{>navbar}}
-{{title}}
-{{userID}}
 <body>
     <!--Other element insitialisations-->
     <script type="text/javascript" language="javascript">
-    $(document).ready(function(){
-   $('.carousel').carousel({
-     fullWidth:true
+        $(document).ready(function() {
+            $('.carousel').carousel({
+                fullWidth: true
 
-   });
+            });
 
- });
+        });
     </script>
+
+<div id = "header">
+    <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+            <h2>Fourth Panel</h2>
+            <p class="white-text">This is your fourth panel</p>
+        </div>
+    </div>
+</div>
+
     <div class="container">
         <div class="row">
+            <div class="col s9">
+                <p>
+                <h4>{Upcoming local election}</h4>
+                    Cupidatat tempor irure consequat adipisicing aliqua labore voluptate pariatur occaecat. Magna non sint cillum veniam cillum velit esse. Minim sunt proident fugiat anim elit non culpa eu nulla adipisicing in aliqua aute ut est excepteur minim. Ullamco
+                    consequat duis sit excepteur dolor do exercitation irure in culpa. Quis ea officia magna reprehenderit commodo laborum dolore... <a href ="#">read more about candidates here</a>
+                    <br />
+                <small><a href="#">(54)Replies</a></small>
+                </p>
+                <p>
+                <h4>{Rising petiton}</h4>
+                    Cupidatat tempor irure consequat adipisicing aliqua labore voluptate pariatur occaecat. Magna non sint cillum veniam cillum velit esse. Minim sunt proident fugiat anim elit non culpa eu nulla adipisicing in aliqua aute ut est excepteur minim. Ullamco
+                    consequat duis sit excepteur dolor do exercitation irure in culpa. Quis ea officia magna reprehenderit commodo laborum dolore... <a href ="#">Sign or read more here</a>
+                    <br />
+                <small><a href="#">(54)Replies</a></small>
+                </p>
+                <p>
+                <h4>{Town hall general}</h4>
+                    Cupidatat tempor irure consequat adipisicing aliqua labore voluptate pariatur occaecat. Magna non sint cillum veniam cillum velit esse. Minim sunt proident fugiat anim elit non culpa eu nulla adipisicing in aliqua aute ut est excepteur minim. Ullamco
+                    consequat duis sit excepteur dolor do exercitation irure in culpa. Quis ea officia magna reprehenderit commodo laborum dolore... <a href ="#">contribute more here</a>
+                    <br />
+                <small><a href="#">(20)Replies</a></small>
+                </p>
+            </div>
+            <div class="col s3">
+                <h2> Big news about other </h2>
+                <p>
+                    Mollit ex minim deserunt sint non laborum proident ea Lorem sit adipisicing consequat. Nulla fugiat officia consectetur nisi dolore sit velit laboris ipsum ex enim sint sit commodo. Sint enim Lorem eiusmod nulla labore dolore pariatur nostrud nisi adipisicing
+                    do veniam consequat. Amet reprehenderit tempor consectetur sunt do eiusmod deserunt consectetur nostrud voluptate mollit eu duis nulla. Consequat adipisicing exercitation consequat Lorem aliquip cupidatat ad.
+                </p>
 
-          <div class="carousel carousel-slider center" data-indicators="true">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2">button</a>
-      </div>
-      <div class="carousel-item red white-text" href="#one!">
-        <h2>First Panel</h2>
-        <p class="white-text">This is your first panel</p>
-      </div>
-      <div class="carousel-item amber white-text" href="#two!">
-        <h2>Second Panel</h2>
-        <p class="white-text">This is your second panel</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p class="white-text">This is your third panel</p>
-      </div>
-      <div class="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p class="white-text">This is your fourth panel</p>
-      </div>
-    </div>
-
+            </div>
         </div>
     </div>
 </body>
