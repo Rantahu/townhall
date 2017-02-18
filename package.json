@@ -1,0 +1,23 @@
+{
+  "name": "townhall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rantahu/townhall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rantahu/townhall/issues"
+  },
+  "homepage": "https://github.com/Rantahu/townhall#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
