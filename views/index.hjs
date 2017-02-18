@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{>header}} {{title}}
 
 
@@ -33,3 +34,10 @@
 </body>
 
 {{userID}} {{>footer}}
+=======
+{{>head}}
+{{>navbar}}
+{{title}}
+{{userID}}
+{{>footer}}
+>>>>>>> 0e1d47b4d6f84041db85b280f450dd7908b0b6c1
