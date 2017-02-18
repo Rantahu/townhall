@@ -5,8 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Officials',
     partials: {
-      header: './partials/header',
+      head: './partials/head',
       footer: './partials/footer',
+      navbar: './partials/navbar',
     }
  });
 });

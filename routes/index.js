@@ -7,8 +7,9 @@ router.get('/', function(req, res, next) {
     title: 'Express' ,
     userID: '1234',
     partials: {
-    	header: './partials/header',
+    	head: './partials/head',
     	footer: './partials/footer',
+      navbar: './partials/navbar',
     }
   });
 });

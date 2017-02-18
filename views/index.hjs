@@ -1,4 +1,5 @@
-{{>header}}
+{{>head}}
+{{>navbar}}
 {{title}}
 {{userID}}
 {{>footer}}
