@@ -1,7 +1,7 @@
 townhall
 ==========
 
-# We need a better name!
+## We need a better name!
 
 ## Dependencies
 ```
