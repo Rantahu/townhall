@@ -13,10 +13,19 @@
       <div class="col s8">
         <div class="row">
           <div class="col 12">
-            <p class="displayname">Burger Bun</p>
+            <p class="displayname">{Official 1}</p>
             <p>Tempor excepteur occaecat exercitation ut ullamco cillum duis veniam veniam esse incididunt nulla.</p>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
+            <div class="row">
+              <div class="col s12">
+                <p>{Position} | {location}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col 12">
+                <a class="waves-effect waves-light btn">Contact</a>
+                <a class="waves-effect waves-light btn">Rate</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -27,10 +36,19 @@
       <div class="col s8">
         <div class="row">
           <div class="col 12">
-            <p class="displayname">Burger Bun</p>
+            <p class="displayname">{Official 1}</p>
             <p>Tempor excepteur occaecat exercitation ut ullamco cillum duis veniam veniam esse incididunt nulla.</p>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
+            <div class="row">
+              <div class="col s12">
+                <p>{Position} | {location}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col 12">
+                <a class="waves-effect waves-light btn">Contact</a>
+                <a class="waves-effect waves-light btn">Rate</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -41,10 +59,19 @@
       <div class="col s8">
         <div class="row">
           <div class="col 12">
-            <p class="displayname">Burger Bun</p>
+            <p class="displayname">{Official 1}</p>
             <p>Tempor excepteur occaecat exercitation ut ullamco cillum duis veniam veniam esse incididunt nulla.</p>
-            <a class="waves-effect waves-light btn">button</a>
-            <a class="waves-effect waves-light btn">button</a>
+            <div class="row">
+              <div class="col s12">
+                <p>{Position} | {location}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col 12">
+                <a class="waves-effect waves-light btn">Contact</a>
+                <a class="waves-effect waves-light btn">Rate</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 #header {
   width: 100%;
-  padding: 100px 0;
+  height: 400px;
+  display: table;
   margin-bottom: 100px;
-  height: auto;
   text-align: center;
   color: #fff;
   background: url('/img/header.jpg') no-repeat center center scroll;
