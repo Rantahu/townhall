@@ -9,8 +9,8 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var officials = require('./routes/officials');
 var discuss = require('./routes/discuss');
-var petition = require('./routes/discuss')
-var splash = require('./routes/splash.js')
+var petition = require('./routes/discuss');
+var splash = require('./routes/splash.js');
 
 var app = express();
 
@@ -28,10 +28,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/officials', officials)
-app.use('/discuss', discuss)
-app.use('/petition', petition)
-app.use('/start', splash)
+app.use('/officials', officials);
+app.use('/discuss', discuss);
+app.use('/petition', petition);
+app.use('/start', splash);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
