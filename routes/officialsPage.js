@@ -3,10 +3,11 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('officials', { title: 'Official',
+  res.render('officialsPage', { title: 'Official',
     districtNum: '20',
     officialsName: 'FirstName LastName',
-    officialsEmail: 'name@domain.gov'
+    officialsEmail: 'name@domain.gov',
+    officialsPos: 'Position',
     partials: {
       head: './partials/head',
       footer: './partials/footer',

@@ -1,0 +1,22 @@
+{{>head}}
+{{>navbar}}
+
+<body>
+  <div id="header">
+    <h1> {{officialsName}}</h1>
+  </div>
+
+  <div class="container center-align">
+    <img class="responsive-img" src="img/circle.png">
+    <p>{{officialsPos}}</p>
+    <p>District {{districtNum}} | {Site User} </p>
+    <div class="row">
+        <a class="waves-effect waves-light btn">Contact</a>
+        <a class="waves-effect waves-light btn">Rate</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+{{>footer}}

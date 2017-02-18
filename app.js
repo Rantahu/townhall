@@ -10,7 +10,8 @@ var users = require('./routes/users');
 var officials = require('./routes/officials');
 var discuss = require('./routes/discuss');
 var petition = require('./routes/discuss');
-var splash = require('./routes/splash.js');
+var splash = require('./routes/splash');
+var officialsPage = require('./routes/officialsPage')
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use('/officials', officials);
 app.use('/discuss', discuss);
 app.use('/petition', petition);
 app.use('/start', splash);
+app.use('/officialsPage', officialsPage)
 
 
 
